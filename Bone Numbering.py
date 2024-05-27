@@ -2,16 +2,16 @@ import bpy
 
 # プラグインに関する情報
 bl_info = {
-    "name" : "Bone Numbering",             # プラグイン名
-    "author" : "Mossy",                  # 作者
-    "version" : (0,1),                  # プラグインのバージョン
-    "blender" : (3, 6, 0),              # プラグインが動作するBlenderのバージョン
-    "location" : "View3D > Tool",   # Blender内部でのプラグインの位置づけ
-    "description" : "Add prefix or subfix",   # プラグインの説明
+    "name" : "Bone Numbering",
+    "author" : "Mossy",
+    "version" : (0,1),
+    "blender" : (3, 6, 0),
+    "location" : "View3D > Tool",
+    "description" : "Add prefix or subfix",
     "warning" : "",
-    "wiki_url" : "",                    # プラグインの説明が存在するWikiページのURL
-    "tracker_url" : "",                 # Blender Developer OrgのスレッドURL
-    "category" : "Rigging"                   # プラグインのカテゴリ名
+    "wiki_url" : "",
+    "tracker_url" : "",
+    "category" : "Rigging"
 }
 
 
