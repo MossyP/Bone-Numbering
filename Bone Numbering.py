@@ -2,7 +2,7 @@ import bpy
 
 # プラグインに関する情報
 bl_info = {
-    "name" : "Melo Bone Numbering",             # プラグイン名
+    "name" : "Bone Numbering",             # プラグイン名
     "author" : "Mossy",                  # 作者
     "version" : (0,1),                  # プラグインのバージョン
     "blender" : (3, 6, 0),              # プラグインが動作するBlenderのバージョン
@@ -65,7 +65,7 @@ class OBJECT_OT_BoneNumberingAddon(bpy.types.Operator):
         return context.mode == 'EDIT_ARMATURE'
 
 class VIEW3D_PT_BoneNumberingPanel(bpy.types.Panel):
-    bl_label = "Melo's Bone Numbering"
+    bl_label = "Bone Numbering"
     bl_category = "Tool"
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
